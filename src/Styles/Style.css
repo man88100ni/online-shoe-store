@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.productImage{
+    width: 100%;
+    margin: auto;
+    height: 240px;
+    object-fit: cover;
+}
+.cartItems{
+  margin: 0;
+  padding: 0;
+}
+.cartItems li{
+  list-style: none;
+}
+/* General page layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+/* h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+} */
+
+/* Grid layout */
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+} */
+
+/* .col-7 {
+  flex: 0 0 65%;
+}
+
+.col-5 {
+  flex: 0 0 30%;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+} */
+
+/* Product Cards */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.productImage {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #222;
+}
+
+.product-price {
+  font-size: 22px;
+  color: #555;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #282c34;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* Cart Section */
+.cartItems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cartItems li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  background: #343945;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.cartItems li:last-child {
+  border-bottom: none;
+}
+
+.cartItems .productImage {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cartItems .productImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cartItems .productName {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cartItems .productPrice {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.addOrRemoveProduct {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.addOrRemoveProduct button {
+  padding: 4px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #ddd;
+  color: #333;
+}
+
+.addOrRemoveProduct button:hover {
+  background-color: #bbb;
+}
